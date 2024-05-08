@@ -24,7 +24,7 @@ utils.jq(() => {
           cell += '</div>';
           cell += '<span>' + item.created + '</span>';
           cell += '</div>';
-          cell += '<a class="body" href="' + item.link + '"  rel="external nofollow noopener noreferrer">';
+          cell += '<a class="body" href="' + item.link + '" target="_blank" rel="external nofollow noopener noreferrer">';
           cell += item.title;
           cell += '</a>';
           cell += '</div>';
